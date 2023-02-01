@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary Guessing</title>
+    <link rel="stylesheet" href="./binary-guessing.css">
+    <h1>Binary Guessing</h1>
+</head>
+<body>
+   <section class="machine-guesses">
+    <h2>Machine Guesses</h2>
+    <br><br>
+    <div class="label">
+        <label for="max" class="label-text">ENTER THE MAX VALUE:</label>
+        <input type="text" id="max-value" name="max-value">
+        <div id="max-show"></div>
+    </div>
+    
+    <br> <br> 
+    <input type="button" class="btn-start button" value="Start game" />
+   
+    <div class="guessing">
+        <div class="guess-number"></div>
+        <input type="button" class="num-bigger button" value="My number is bigger" />
+        <input type="button" class="num-smaller button" value="My number is smaller" />
+        <input type="button" class="btn-equal button" value="This is my number!" />
+      </div>
+      <br><br><br>
+      <div id="congrats"></div>
+      <br><br>
+      <input type="button" id="again" class="button" value="Restart">
+      <br>
+      <img src="./capibara_comp.png" alt="Capibara" width="300" id="img1">
+      
+   </section>
+
+   <section class="you-guess">
+    <h2>You Guess</h2>
+    <br><br>
+    <div class="label">
+        <label for="max" class="label-text1">ENTER THE MAX VALUE:</label>
+        <input type="text" id="max-value1" name="max-value">
+    </div>
+    
+    <br> <br> 
+    <input type="button" class="btn-start1 button1" value="Start game" />
+    <div class="guessing1">
+        <label for="number-guessing" id="number-guess1">GUESS A NUMBER:</label>
+        <input type="number" id="input-number" name="input-number">
+    </div>
+        <br><br>
+        <button class="button1" id="btn-guess">Guess!</button>
+    
+    <br>
+    <div id="answer"></div> <div id="winner"></div>
+    <br><br>
+    <img src="./capibara_kiss.png" alt="Capibara" width="300" id="img2">
+    <button id="restart" class="button1">Restart</button>
+    
+    <div id="random"></div>
+   </section>
+
+   <script src="./binary-guessing.js"></script>
+</body>
+</html>

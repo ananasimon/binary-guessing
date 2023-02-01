@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4.5vw;
+  color: rgb(167, 21, 21);
+  background-color: rgb(224, 138, 77);
+  text-shadow: 2px 2px 1px #333, -1px -1px 0 rgb(231, 122, 122);
+}
+
+h2 {
+  font-size: 2vw;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+
+}
+
+section {
+    width: 47.2vw;
+    height: 95vh;
+    padding: 1em;
+    float: left;
+    text-align: center;
+    position: relative;
+   
+}
+
+#img1 {
+    margin-right: 20px;
+}
+
+
+
+/* MACHINE GUESSES */
+
+.machine-guesses {
+    background-color: rgba(255, 228, 196, 0.71);
+    color: rgb(95, 57, 11);
+}
+
+.machine-guesses h2 {
+    border-bottom: double 5px rgb(95, 7, 7);
+}
+
+.button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 10px;
+    color:whitesmoke;
+    padding: 10px;
+    background: radial-gradient(rgb(217, 50, 50), rgb(167, 21, 21));
+    border:  rgb(167, 21, 21);
+    cursor: pointer;
+}
+
+ .button:hover {
+  background: radial-gradient(rgba(233, 149, 149, 0.797), rgb(244, 78, 78));
+  transform: translate(0, 0.25em);
+  color: rgb(103, 12, 12);
+
+}
+
+.button:active {
+    background:rgb(71, 4, 4);
+    border:  rgb(32, 2, 2) 3px solid;
+    color:rgb(32, 2, 2);
+}
+ 
+.machine-guesses .label {
+
+    font-weight: 600;
+    color: rgb(138, 23, 23);
+}
+
+
+
+#congrats {
+    font-size: 2vw;
+    font-weight: 1000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(195, 1, 1);
+}
+
+.guess-number {
+    font-size: 3vw;
+    font-weight: bold;
+    color: black
+}
+
+#again {
+    margin-left: 43%;
+}
+
+#max-value {
+    text-align: center;
+  
+}
+
+/* YOU GUESS */
+.you-guess {
+    background-color: rgb(192, 247, 229);
+}
+
+.you-guess h2 {
+    color: rgb(0, 34, 34);
+    border-bottom: double 5px rgb(0, 34, 34);
+}
+
+.you-guess .label {
+    font-weight: 600;
+    color: rgb(8, 27, 27);
+}
+
+.button1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 10px;
+    color:whitesmoke;
+    padding: 10px;
+    border: rgb(7, 48, 45) ;
+    background: radial-gradient(rgba(6, 69, 65, 0.774), rgb(7, 50, 47));
+    cursor: pointer
+}
+
+.button1:hover {
+    background: radial-gradient(rgba(177, 230, 226, 0.774), rgb(26, 154, 145));
+    transform: translate(0, 0.25em);
+    color: rgb(4, 42, 39);
+  
+  }
+
+.button1:active {
+    background:rgb(4, 42, 39);
+    border:  rgb(2, 26, 24) 3px solid;
+    color:rgb(2, 26, 24);
+}
+
+.guessing1 {
+    font-weight: 600;
+    color:rgb(2, 53, 53)
+}
+
+#winner {
+    font-size: 2vw;
+    font-weight: 1000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(17, 78, 78);
+}
+
+#answer {
+    font-size: 2vw;
+    font-weight: 1000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(89, 10, 10);
+}
+
+#restart {
+    margin-left: 43%;
+}
+
+#img2 {
+    float: right
+}
+
+#btn-guess{
+    margin-left: 42%;
+}
+#input-number {
+    margin-left: 38%;
+}
+
